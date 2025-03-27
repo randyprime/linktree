@@ -1,56 +1,41 @@
 {
-  "name": "Trevor Tyler Lee",
-  "bio": "Free, open source LinkTree alternative built with Astro & Tailwind CSS",
+  "name": "Thomas Randall",
+  "bio": "I'm spending every waking minute of my life figuring out how to design banger games. ",
   "profilePicture": "/profile-picture.jpg",
-  "url": "https://trevortylerlee.com",
-  "blog": true,
+  "url": "https://randy.gg",
+  "blog": false,
   "iconLinks": [
     {
-      "id": "1728534577184",
-      "icon": "link",
-      "url": "https://boogerbuttcheeks.com"
-    },
-    {
-      "id": "1728534577185",
-      "icon": "email",
-      "url": "mailto:ttl@trevortylerlee.com"
-    },
-    {
       "id": "1728534577186",
-      "icon": "github",
-      "url": "https://github.com/trevortylerlee"
+      "icon": "youtube",
+      "url": "https://docs.treelink.app/guides/quick-start/"
     },
     {
       "id": "1728534577187",
-      "icon": "twitter",
-      "url": "https://twitter.com/boogerbuttcheek"
+      "icon": "x",
+      "url": "https://x.com/primalrandy"
+    },
+    {
+      "id": "1743059493586",
+      "icon": "steam",
+      "url": "https://store.steampowered.com/developer/randygg"
     }
   ],
   "customLinks": [
     {
-      "id": "1728534585738",
-      "title": "🍌 donkey kong country on the snes",
-      "url": "https://youtu.be/7hgr-ZuzXng?si=v3dr9mu2cBL_D4ED"
+      "id": "1743059357133",
+      "title": "Terrafactor",
+      "url": "https://terrafactor.randy.gg"
     },
     {
-      "id": "1728534585739",
-      "title": " Best macOS apps",
-      "url": "https://macintoshapps.com"
+      "id": "1743059428454",
+      "title": "Demon Knives",
+      "url": "https://store.steampowered.com/app/3309460/Demon_Knives/"
     },
     {
-      "id": "1728534585740",
-      "title": "💕 36 Questions To Fall In Love",
-      "url": "https://thirtysixquestions.org"
-    },
-    {
-      "id": "1728534585741",
-      "title": "SuperWeb Themes",
-      "url": "https://superwebthemes.com"
-    },
-    {
-      "id": "1728534585742",
-      "title": "♥ Donate",
-      "url": "https://donate.stripe.com/aEU6ow7VEf7u7sseUU"
+      "id": "1743059451853",
+      "title": "ARCANA",
+      "url": "https://store.steampowered.com/app/2571560/ARCANA/"
     }
   ]
 }
