@@ -9,6 +9,6 @@ export default defineConfig({
   redirects: {
     "/blog": "/",
   },
-  site: "https://randy.gg",
+  site: "https://bigrando420.github.io/linktree",
   integrations: [tailwind(), sitemap(), icon()],
 });
