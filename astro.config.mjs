@@ -35,7 +35,7 @@ export default defineConfig({
     "/work": "mailto:contact@randy.gg",
     "/contact": "mailto:contact@randy.gg",
 
-    "/res": "404", // TODO, .md blog post
+    "/res": "https://github.com/bigrando420/resources/wiki",
 
   },
   site: "https://randy.gg",
