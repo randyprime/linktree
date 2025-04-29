@@ -23,8 +23,8 @@ export default defineConfig({
     "/learn": "https://private-community.carrd.co/",
     "/list": "https://randyprime.beehiiv.com",
 
-    "/patreon": "https://www.patreon.com/alpinegames",
-    "/patty": "https://www.patreon.com/alpinegames",
+    "/patreon": "https://www.patreon.com/baldrandy",
+    "/patty": "https://www.patreon.com/baldrandy",
 
     "/playlists": "https://open.spotify.com/user/c5i6oure30sx891a24pnr19xn/playlists",
     
