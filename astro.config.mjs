@@ -20,7 +20,7 @@ export default defineConfig({
     "/ko-fi": "https://ko-fi.com/bigrando420",
     "/fund": "https://ko-fi.com/bigrando420",
 
-    "/learn": "https://private-community.carrd.co/",
+    "/learn": "https://learn.randy.gg",
     "/list": "https://randyprime.beehiiv.com",
 
     "/patreon": "https://www.patreon.com/baldrandy",
