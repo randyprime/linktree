@@ -23,6 +23,11 @@
   ],
   "customLinks": [
     {
+      "id": "1743059357132",
+      "title": "Learn Game Dev",
+      "url": "https://learn.randy.gg/?src=randy-gg"
+    },
+    {
       "id": "1743059357133",
       "title": "Terrafactor",
       "url": "https://terrafactor.randy.gg"
