@@ -8,6 +8,8 @@ import icon from "astro-icon";
 export default defineConfig({
   redirects: {
 
+    "/community": "https://www.skool.com/dev-fellowship-8002",
+
     "/blog": "https://randyprime.beehiiv.com/",
     "/writings": "https://randyprime.beehiiv.com/",
 
