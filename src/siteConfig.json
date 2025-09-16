@@ -19,28 +19,18 @@
       "id": "1743059493586",
       "icon": "steam",
       "url": "https://store.steampowered.com/developer/randygg"
+    },
+    {
+      "id": "1743059493325",
+      "icon": "instagram",
+      "url": "https://www.instagram.com/randyprime/"
     }
   ],
   "customLinks": [
     {
-      "id": "1743059357132",
-      "title": "Learn Game Dev",
-      "url": "https://learn.randy.gg/?src=randy-gg"
-    },
-    {
       "id": "1743059357133",
-      "title": "Terrafactor",
-      "url": "https://terrafactor.randy.gg"
-    },
-    {
-      "id": "1743059428454",
-      "title": "Demon Knives",
-      "url": "https://store.steampowered.com/app/3309460/Demon_Knives/"
-    },
-    {
-      "id": "1743059451853",
-      "title": "ARCANA",
-      "url": "https://store.steampowered.com/app/2571560/ARCANA/"
+      "title": "Terrafactor on Steam",
+      "url": "https://store.steampowered.com/app/3433610/Terrafactor/"
     }
   ]
 }
