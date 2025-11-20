@@ -1,5 +1,5 @@
 {
-  "name": "Tom Randall",
+  "name": "randy",
   "bio": "I'm spending every waking minute of my life figuring out how to design banger games. ",
   "profilePicture": "/profile-picture.jpg",
   "url": "https://randy.gg",
@@ -36,6 +36,11 @@
       "id": "1743059357133",
       "title": "Terrafactor on Steam",
       "url": "https://store.steampowered.com/app/3433610/Terrafactor/"
+    },
+    {
+      "id": "1743059357123",
+      "title": "Donate",
+      "url": "https://ko-fi.com/bigrando420"
     }
   ]
 }
