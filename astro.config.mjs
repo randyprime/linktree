@@ -19,6 +19,7 @@ export default defineConfig({
 
     "/kofi": "https://ko-fi.com/bigrando420",
     "/donate": "https://ko-fi.com/bigrando420",
+    "/dono": "https://ko-fi.com/bigrando420",
     "/ko-fi": "https://ko-fi.com/bigrando420",
     "/fund": "https://ko-fi.com/bigrando420",
 
