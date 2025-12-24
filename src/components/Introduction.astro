@@ -6,7 +6,7 @@ import { SITE } from "@/siteConfig";
 import profilePicture from "@/assets/profile-picture.jpg";
 ---
 
-<div class="mt-8 py-4">
+<div class="text-center">
   <Image
     src={profilePicture}
     alt={SITE.name}
@@ -16,9 +16,9 @@ import profilePicture from "@/assets/profile-picture.jpg";
     draggable="false"
     class="mx-auto size-32 rounded-full"
   />
-  <h1 class="mt-4 text-center text-3xl font-semibold">{SITE.name}</h1>
+  <h1 class="mt-6 text-3xl font-semibold">{SITE.name}</h1>
   <p
-    class="mt-1 text-balance text-center text-sm text-lightModeForegroundMuted dark:text-darkModeForegroundMuted"
+    class="mx-auto mt-3 max-w-md text-balance text-sm text-lightModeForegroundMuted dark:text-darkModeForegroundMuted"
   >
     {SITE.bio}
   </p>

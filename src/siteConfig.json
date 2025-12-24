@@ -8,39 +8,15 @@
     {
       "id": "1728534577186",
       "icon": "youtube",
-      "url": "https://youtube.com/@randyprime"
-    },
-    {
-      "id": "1728534571523",
-      "icon": "twitch",
-      "url": "https://twitch.tv/randy"
-    },
-    {
-      "id": "1728534577187",
-      "icon": "x",
-      "url": "https://x.com/primalrandy"
+      "url": "https://youtube.com/@randyprime2"
     },
     {
       "id": "1743059493586",
       "icon": "steam",
       "url": "https://store.steampowered.com/developer/randygg"
-    },
-    {
-      "id": "1743059493325",
-      "icon": "instagram",
-      "url": "https://www.instagram.com/randyprime/"
     }
   ],
   "customLinks": [
-    {
-      "id": "1743059357133",
-      "title": "Terrafactor on Steam",
-      "url": "https://store.steampowered.com/app/3433610/Terrafactor/"
-    },
-    {
-      "id": "1743059357123",
-      "title": "Donate",
-      "url": "https://ko-fi.com/bigrando420"
-    }
+ 
   ]
 }
