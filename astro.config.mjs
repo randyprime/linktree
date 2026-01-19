@@ -7,6 +7,8 @@ import icon from "astro-icon";
 // https://astro.build/config
 export default defineConfig({
   redirects: {
+    
+    "/terrafactor-presskit": "https://drive.google.com/drive/folders/1nRIOWVQbj51GuuETTFcufOqizi7A1gvI?usp=sharing",
 
     "/community": "https://www.skool.com/dev-fellowship-8002",
 
