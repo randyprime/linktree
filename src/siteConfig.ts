@@ -14,6 +14,7 @@ export interface SiteConfiguration {
 interface IconLink {
   id: string;
   icon: string;
+  label: string;
   url: string;
 }
 

@@ -1,7 +1,7 @@
 {
   "name": "randy",
   "bio": "I'm spending every waking minute of my life figuring out how to design banger games. ",
-  "profilePicture": "/profile-picture.jpg",
+  "profilePicture": "/profile-picture.webp",
   "url": "https://randy.gg",
   "locale": "en_US",
   "blog": false,
@@ -9,12 +9,20 @@
     {
       "id": "1728534577186",
       "icon": "youtube",
-      "url": "https://youtube.com/@randyprime2"
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@randyprime"
     },
     {
       "id": "1743059493586",
       "icon": "steam",
+      "label": "Steam",
       "url": "https://store.steampowered.com/developer/randygg"
+    },
+    {
+      "id": "primalrandy-x",
+      "icon": "x",
+      "label": "X",
+      "url": "https://x.com/primalrandy"
     }
   ],
   "customLinks": [

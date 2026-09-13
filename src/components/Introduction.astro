@@ -1,25 +1,17 @@
 ---
-import { Image } from "astro:assets";
-
 import { SITE } from "@/siteConfig";
-
-import profilePicture from "@/assets/profile-picture.jpg";
 ---
 
-<div class="text-center">
-  <Image
-    src={profilePicture}
-    alt={SITE.name}
-    height={256}
-    width={256}
+<header class="hero">
+  <img
+    src={SITE.profilePicture}
+    alt="Randy lifting his sunglasses"
+    height="500"
+    width="500"
     loading="eager"
     draggable="false"
-    class="mx-auto size-32 rounded-full"
+    class="profile-photo"
   />
-  <h1 class="mt-6 text-3xl font-semibold">{SITE.name}</h1>
-  <p
-    class="mx-auto mt-3 max-w-md text-balance text-sm text-lightModeForegroundMuted dark:text-darkModeForegroundMuted"
-  >
-    {SITE.bio}
-  </p>
-</div>
+  <h1 class="wordmark">RANDY</h1>
+  <p class="bio">{SITE.bio}</p>
+</header>

@@ -1,33 +1,43 @@
 ---
 import { SITE } from "@/siteConfig";
+import { Icon } from "astro-icon/components";
 
 import Introduction from "@/components/Introduction.astro";
 import IconLink from "@/components/IconLink.astro";
 ---
 
+<div class="home-layout">
+<div class="profile-panel">
 <Introduction />
-<ul class="flex justify-center gap-4 pt-8">
+<ul class="social-links" aria-label="Find Randy online">
   {
     SITE.iconLinks.map((link) => {
-      return <IconLink url={link.url} icon={link.icon} />;
+      return <IconLink url={link.url} icon={link.icon} label={link.label} />;
     })
   }
 </ul>
-<div class="flex justify-center gap-4 pt-8">
-  <a
-    href="https://terrafactor.randy.gg"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="bg-lightModeIconLinkBackground dark:bg-darkModeIconLinkBackground hover:bg-lightModeIconLinkBackgroundHover dark:hover:bg-darkModeIconLinkBackgroundHover hover:ring-lightModeIconLinkOutlineHover dark:hover:ring-darkModeIconLinkOutlineHover text-lightModeIconLinkText hover:text-lightModeIconLinkTextHover dark:text-darkModeIconLinkText dark:hover:text-darkModeIconLinkTextHover rounded-full px-6 py-3 ring-2 ring-lightModeIconLinkOutline transition-colors dark:ring-darkModeIconLinkOutline font-medium"
-  >
-    Wishlist Terrafactor
-  </a>
-  <a
-    href="https://ko-fi.com/bigrando420"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="bg-lightModeIconLinkBackground dark:bg-darkModeIconLinkBackground hover:bg-lightModeIconLinkBackgroundHover dark:hover:bg-darkModeIconLinkBackgroundHover hover:ring-lightModeIconLinkOutlineHover dark:hover:ring-darkModeIconLinkOutlineHover text-lightModeIconLinkText hover:text-lightModeIconLinkTextHover dark:text-darkModeIconLinkText dark:hover:text-darkModeIconLinkTextHover rounded-full px-6 py-3 ring-2 ring-lightModeIconLinkOutline transition-colors dark:ring-darkModeIconLinkOutline font-medium"
-  >
-    Donate
-  </a>
+</div>
+<a
+  href="https://store.steampowered.com/app/3433610/Terrafactor/"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Buy Terrafactor on Steam"
+  class="capsule-link"
+>
+  <img
+    src="/terrafactor-capsule.webp"
+    alt="Terrafactor Steam capsule"
+    width="1232"
+    height="706"
+    loading="eager"
+    class="capsule-image"
+  />
+  <span class="capsule-cta">
+    <Icon name="steam" class="cta-steam-icon" />
+    <span>Buy Terrafactor on Steam</span>
+    <svg class="cta-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" />
+    </svg>
+  </span>
+</a>
 </div>

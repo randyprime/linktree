@@ -8,7 +8,7 @@ interface Props {
 
 const { title = SITE.name, description = SITE.bio } = Astro.props;
 
-const ogImage = new URL("/android-chrome-512x512.png", Astro.site);
+const ogImage = new URL(SITE.profilePicture, Astro.site);
 const ogImageAlt = title;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 ---

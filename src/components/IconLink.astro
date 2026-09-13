@@ -1,18 +1,21 @@
 ---
 import { Icon } from "astro-icon/components";
 
-const { icon, url } = Astro.props;
+const { icon, label, url } = Astro.props;
 ---
 
 <li>
   <a
     href={url}
-    aria-label={icon}
-    class="bg-lightModeIconLinkBackground dark:bg-darkModeIconLinkBackground hover:bg-lightModeIconLinkBackgroundHover dark:hover:bg-darkModeIconLinkBackgroundHover hover:ring-lightModeIconLinkOutlineHover dark:hover:ring-darkModeIconLinkOutlineHover group block rounded-full p-3 ring-2 ring-lightModeIconLinkOutline transition-colors dark:ring-darkModeIconLinkOutline"
+    aria-label={label}
+    title={label}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="social-link"
   >
     <Icon
       name={icon}
-      class="text-lightModeIconLinkText group-hover:text-lightModeIconLinkTextHover group-hover:dark:text-darkModeIconLinkTextHover dark:text-darkModeIconLinkText size-6 transition-colors"
+      class="social-icon"
     />
   </a>
 </li>

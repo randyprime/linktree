@@ -8,7 +8,7 @@ const post = entry as CollectionEntry<"blog">;
 const postTitle = post.data.title || SITE.name;
 const postDescription = post.data.description || SITE.bio;
 const ogImage = new URL(
-  post.data.image?.src ?? "/android-chrome-512x512.png",
+  post.data.image?.src ?? SITE.profilePicture,
   Astro.site,
 );
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
