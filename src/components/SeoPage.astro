@@ -8,13 +8,14 @@ interface Props {
 
 const { title = SITE.name, description = SITE.bio } = Astro.props;
 
-const ogImage = new URL("./og.jpg", Astro.site);
+const ogImage = new URL("/android-chrome-512x512.png", Astro.site);
 const ogImageAlt = title;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <title>{title}</title>
 <meta name="description" content={description} />
-<link rel="canonical" href={SITE.url} />
+<link rel="canonical" href={canonicalUrl} />
 
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />

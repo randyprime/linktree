@@ -5,6 +5,7 @@ export interface SiteConfiguration {
   bio: string;
   profilePicture: string;
   url: string;
+  locale: string;
   blog: boolean;
   iconLinks: IconLink[];
   customLinks: CustomLink[];

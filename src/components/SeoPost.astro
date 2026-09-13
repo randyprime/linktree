@@ -7,19 +7,23 @@ const post = entry as CollectionEntry<"blog">;
 
 const postTitle = post.data.title || SITE.name;
 const postDescription = post.data.description || SITE.bio;
-const ogImage = new URL("./og.jpg", Astro.site);
+const ogImage = new URL(
+  post.data.image?.src ?? "/android-chrome-512x512.png",
+  Astro.site,
+);
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <title>{`${postTitle} | ${SITE.name}`}</title>
 <meta name="title" content={`${postTitle} | ${SITE.name}`} />
 <meta name="description" content={postDescription} />
-<link rel="canonical" href={SITE.url} />
+<link rel="canonical" href={canonicalUrl} />
 
 <meta property="og:title" content={postTitle} />
 <meta property="og:description" content={postDescription} />
 <meta
   property="og:image"
-  content={`${SITE.url}${post?.data?.image?.src}` || ogImage}
+  content={ogImage}
 />
 <meta property="og:image:alt" content={postTitle} />
 <meta property="og:type" content="website" />
@@ -29,7 +33,7 @@ const ogImage = new URL("./og.jpg", Astro.site);
 <meta name="twitter:description" content={postDescription} />
 <meta
   property="twitter:image"
-  content={`${SITE.url}${post?.data?.image?.src}` || ogImage}
+  content={ogImage}
 />
 <meta name="twitter:image:alt" content={postTitle} />
 <meta name="twitter:card" content="summary_large_image" />
